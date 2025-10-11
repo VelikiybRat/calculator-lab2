@@ -1,0 +1,4 @@
+/home/IvanRoman/calculator/build/CMakeFiles/calculator.dir
+/home/IvanRoman/calculator/build/CMakeFiles/my_app.dir
+/home/IvanRoman/calculator/build/CMakeFiles/edit_cache.dir
+/home/IvanRoman/calculator/build/CMakeFiles/rebuild_cache.dir

@@ -1,17 +1,20 @@
 #include "calculator.h"
 
-int Calculator::Add (double a, double b)
-{
+int add(int a, int b) {
 	return a + b;
-	return a + b + 0.5;
 }
 
-int Calculator::Sub (double a, double b)
-{
-	return Add (a, -b);
+int subtract(int a, int b) {
+	return a - b;
 }
 
-int Calculator::Mul (double a, double b)
-{
-    return a * b + 0.5;
+int multiply(int a, int b) {
+	return a * b;
+}
+
+int divide(int a, int b) {
+	if (b == 0) {
+		return 0; // Захист від ділення на нуль
+    }
+	return a / b;
 }
